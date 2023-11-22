@@ -40,6 +40,7 @@ export function Gallery({ category, alt, title, titleWidth }: Props) {
   return (
     <motion.article initial="hidden" animate="visible" exit={{ opacity: 0, transition: { duration: 0.5 } }}>
       <motion.h1
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         style={{ "--base-width": `${titleWidth}vw`, x: "-50%" } as any}
         variants={{
           hidden: { opacity: 0, y: -20 },

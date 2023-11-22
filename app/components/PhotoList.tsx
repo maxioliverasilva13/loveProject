@@ -2,7 +2,7 @@ import { motion, Variants } from "framer-motion";
 import Image from "next/image";
 
 interface Props {
-  image: any;
+  image: string;
   hueA: number;
   hueB: number;
 }
