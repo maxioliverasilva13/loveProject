@@ -7,7 +7,6 @@ import 'animate.css';
 import Lottie from "lottie-react"
 import loveAnimationData from "@/public/lottie/lottie.json"
 import { useEffect, useState } from "react";
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [showHearts, setShowHearts] = useState(false);
   
