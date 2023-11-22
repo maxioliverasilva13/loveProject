@@ -8,7 +8,6 @@ import Lottie from "lottie-react";
 import love2 from "@/public/lottie/love2.json";
 import love3 from "@/public/lottie/love3.json";
 import love4 from "@/public/lottie/love4.json";
-import YouTube from "react-youtube";
 
 import { Gallery } from "./components/Gallery";
 
