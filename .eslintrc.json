@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["prettier", "@typescript-eslint"],
+  "extends": ["next/core-web-vitals", "prettier", "plugin:storybook/recommended", "plugin:@typescript-eslint/recommended",  "plugin:jsx-a11y/strict"],
+  "rules": {
+    "no-unused-vars": ["error",  {"vars":  "all"}]
+  }
+}

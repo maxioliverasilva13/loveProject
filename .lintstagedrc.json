@@ -1,0 +1,4 @@
+{
+  "*.{css,scss,sass}": ["pnpm prettier"],
+  "*.{js,jsx,ts,tsx}": ["jest --passWithNoTests", "pnpm prettier", "eslint"]
+}
